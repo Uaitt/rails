@@ -2477,7 +2477,7 @@ end
 Due to the `:foreign_key` option, Active Record will not automatically recognize
 the bi-directional association, which can lead to several issues:
 
-* Execute needless queries for the same data (in this example causing N+1
+* Execute needless queries for the same data (in this example causing N + 1
   queries):
 
     ```irb
